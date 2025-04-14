@@ -1,0 +1,131 @@
+body{
+    background-color: #363753;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background:  #dfe3ee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+main{
+    color: #dfe3ee;
+}
+.imagemheader{
+    width: 60px;
+}
+.nav a{
+    font-size: 18px;
+    color: #000000a7;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    filter: drop-shadow(5px 5px 4px #708090);
+}
+.section{
+    font-size: 15px;
+    margin-top: 300px;
+    text-align: center;
+}
+.divmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textomain{
+    font-size: 50px;
+    font-family: Italic;
+}
+.computador{
+    width: 200px;
+    margin-left: 20px;
+}
+.notebook{
+    width: 200px;
+    margin-right: 20px;
+}
+footer{
+    font-size: 15px;
+    margin-top: 300px;
+    color: #4c44a8;
+    background-color: #dfe3ee;
+}
+.Titulos-footer{
+    text-align: center;
+    font-size: 50px;
+    font-family: Italic;
+}
+.imagensprodutos{
+    width: 400px;
+    margin-left: 5px;
+}
+.produtos{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.navfooter a{
+    font-size: 18px;
+    color: #dfe3ee;
+    text-decoration: none;
+    border: 5px solid #4c44a8;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 4px #708090);
+    background: #4c44a8;
+    letter-spacing: 1px;
+}
+.detalhes{
+    margin-left: 5px;
+}
+.textoproduto{
+    margin-left: 15px;
+}
+.video{
+    margin-top: 250px;
+    margin-left: 100px;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+}
+.iframe{
+    border:  5px solid #4c44a8;
+    border-radius: 8px;
+    background: #4c44a8;
+}
+.divvideo{
+    color: #dfe3ee;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.textovideo{
+    color: darkblue;
+}
+.sobre{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 50px 10%;
+    color: #dfe3ee;
+}
+.divsobre{
+    display: flex;
+    align-items: center;
+    border:  5px solid #4c44a8;
+    border-radius: 10px;
+    background: #4c44a8;
+}
+.titulossobre{
+    margin: 5px;
+}
+.lista{
+    margin-left: 10px;
+}
+.imagemsobre{
+    width: 200px;
+}
