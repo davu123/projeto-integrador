@@ -1,0 +1,14 @@
+projeto-integrador/
+├── app.py
+├── templates/
+│   ├── cadastrar.html
+│   ├── login.html
+│   └── paginainicial.html
+├── static/
+│   ├── css/
+│   │   ├── cadastro.css
+│   │   ├── login.css
+│   │   └── paginainicial.css
+│   └── js/
+│       └── scripts.js
+└── database.db
