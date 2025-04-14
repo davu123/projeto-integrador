@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html id="Login" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <form action="/login" id="login" method="post">
+    <div class="divmain">
+      <div class="div_boas_vindas">
+        <img class="img_main" src="reuniao.png" alt="animated">
+      </div>
+      <div class="div_login">
+        <div class="card_login">
+          <h1>LOGIN</h1>
+          <div class="txt">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="E-mail" required>
+          </div>
+          <div class="txt">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Sua senha" required>
+          </div>
+          <button class="btn_entrar">Entrar</button>
+          <nav class="navbar">
+            <a href="">Esqueci minha senha</a>
+            <a href="cadastrar.html">Não possuo conta</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
