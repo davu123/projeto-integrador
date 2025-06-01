@@ -1,36 +1,24 @@
 <!DOCTYPE html>
-<html id="Login" lang="pt-br">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro.css">
-    <title>Cadastrar</title>
+    <title>Cadastro</title>
 </head>
-
 <body>
-    <div class="divmain">
-        <div class="div_login">
-            <div class="card_login">
-                <h1>CADASTRE-SE</h1>
-                <div class="txt">
-                    <input type="text" name="Nome" placeholder="Nome Completo">
-                </div>
-                <div class="txt">
-                    <input type="password" name="E-mail" placeholder="E-mail">
-                </div>
-                <div class="txt">
-                    <input type="password" name="CPF" placeholder="CPF">
-                </div>
-                <div class="txt">
-                    <input type="password" name="Senha" placeholder="Senha">
-                </div>
-                <div class="txt">
-                    <input type="password" name="Confirmar senha" placeholder="confirmar senha">
-                </div>
-                <button class="btn_entrar">CADASTRAR</button>
-            </div>
-        </div>
-    </div>
+    <h2>Cadastro de Usuário</h2>
+    <form method="POST" action="/cadastrar">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p>Já tem conta? <a href="/login">Faça login aqui</a></p>
 </body>
 </html>
