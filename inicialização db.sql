@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome NVARCHAR(255) NOT NULL,
+    email NVARCHAR(255) UNIQUE NOT NULL,
+    senha NVARCHAR(255) NOT NULL,
+    data_cadastro DATETIME DEFAULT GETDATE()
+);
